@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Personal Profile Website project of Monday Eseinone WDD 131 - Dynamic Web Fundamentals project, featuring HTML, CSS, and JavaScript, by Monday Erirore Eseinone, an online student at Brigham Young University. Project completed on September 19th, 2024.">
+    <meta name="author" content="Monday Erirore Eseinone">
+    <title> Monday Erirore Eseinone</title>
+
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/lagos-nigeria-property-large.js" defer></script>
+    <link rel="stylesheet" href="styles/lagos-property.css">
+    <link rel="stylesheet" href="styles/lagos-property-large.css">
+</head>
+<body>
+    <header>
+        <h1>LAGOS HOME </h1> 
+        <h2> Call Today <i>+234-807-523-6542</i></h2>
+        <button type="button" id="menu"></button>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+            <a href="#">Blog</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="overlay">
+                <picture>
+                    <source srcset="images/hero-large.jpg" media="(min-width: 1000px)">
+                    <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                    <img src="images/hero-small.webp" alt="Nigeria, Lagos in West Africa" width="500" height="300">
+                </picture>
+                <h1>Property For Rent <br>
+                    in Lagos, Nigeria.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+            </div>
+        </div>
+
+        <!-- get in touch starts here  -->
+        <div id="get-touch">
+            <div class="get-touch-content">
+                <div class="row">
+                    <h3>Cost for your home renovation project</h3>
+                    <p>Get started today and complete our form to request your free estimate</p>
+                </div>
+                <div class="row">
+                    <!-- <div class="button"><a href="#contact">Free Estimate</a></div> -->
+                    <!-- <div class="button"><button class="byu_now_button"> BOOK NOW</button></div> -->
+                    <div class="button"><a href="#contact" class="button-exp"> Contact Us &#8594;</a></div>
+                    <!-- <button  type="submit" class="button">Submit</button> -->
+                </div>
+            </div>
+
+        </div>
+        <!-- get in touch end here  -->
+
+        <div class="container">
+            <section>
+                <div class="about-card">
+                    <img class="hover" src="images/01-aba-nigeria-temple.jpg" alt="aba nigeria temple">
+                </div>
+            </section>
+            <section>
+                <div class="about-details">
+                    <h2> Who We Are</h2>
+                    <p>  This name represents Personal profile elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Why Choose Us?</h3>
+                    <ul>
+                        <li> ➡️   Years of Experience</li>
+                        <li> ➡️   Fully Insured</li>
+                        <li> ➡️   Cost Control Experts</li>
+                        <li> ➡️   100% Satisfaction Guarantee</li>
+                        <li> ➡️   Satisfied Customers</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <button type="submit"> SUBMIT</button>
+
+    </main>
+    <footer>
+        <p id="year"></p> 
+        <p id="date-modified"></p>
+    </footer>
+    
+</body>
+</html>
